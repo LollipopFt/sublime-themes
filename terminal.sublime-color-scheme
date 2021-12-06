@@ -1,0 +1,72 @@
+{
+    "name": "terminal",
+
+    "globals":
+    {
+        "background": "#000000",
+        "foreground": "#FFFFFF",
+        "caret": "#80FFBF",
+        "block_caret": "#0000",
+        "block_caret_border": "#80FFBF",
+        "misspelling": "#FF4040",
+        "minimap_border": "#808080",
+        "gutter": "#000000",
+        "gutter_foreground": "#808080",
+        "gutter_foreground_highlight": "#FFFFFF",
+        "line_diff_added": "#00FF00",
+        "line_diff_modified": "#FFFF00",
+        "line_diff_deleted": "#FF0000",
+        "selection": "#404040",
+        "highlight": "#80FFBF",
+        "find_highlight": "#404040",
+        "scroll_highlight": "#808080",
+        "rulers": "#808080",
+        "guide": "#808080",
+        "brackets_options": "bold"
+    },
+
+    "rules":
+    [
+        {
+            "name": "variable constant",
+            "scope": "entity.name.constant, variable.other.constant",
+            "foreground": "#E0E0FF"
+        },
+        {
+            "name": "variable",
+            "scope": "variable.other, variable.other.readwrite",
+            "foreground": "#E0FFE0"
+        },
+        {
+            "name": "number",
+            "scope": "constant.numeric",
+            "font_style": "bold"
+        },
+        {
+            "name": "language constant",
+            "scope":
+            "variable.language, constant.language, constant.other, storage, keyword.control, keyword.other, keyword.operator.word",
+            "foreground": "#FFE0FF"
+        },
+        {
+            "name": "special constant",
+            "scope": "constant.character.escape, constant.other.placeholder",
+            "foreground": "#606060"
+        },
+        {
+            "name": "string",
+            "scope": "string",
+            "foreground": "#C0C0C0"
+        },
+        {
+            "name": "comment",
+            "scope": "comment",
+            "foreground": "#808080"
+        },
+        {
+            "name": "invalid",
+            "scope": "invalid",
+            "foreground": "#FFE0E0"
+        }
+    ]
+}
