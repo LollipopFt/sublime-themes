@@ -12,7 +12,6 @@
         "minimap_border": "#808080",
         "gutter": "#000000",
         "gutter_foreground": "#808080",
-        "gutter_foreground_highlight": "#FFFFFF",
         "line_diff_added": "#00FF00",
         "line_diff_modified": "#FFFF00",
         "line_diff_deleted": "#FF0000",
@@ -30,12 +29,12 @@
         {
             "name": "variable constant",
             "scope": "entity.name.constant, variable.other.constant",
-            "foreground": "#E0E0FF"
+            "foreground": "#8080FF"
         },
         {
             "name": "variable",
             "scope": "variable.other, variable.other.readwrite",
-            "foreground": "#E0FFE0"
+            "foreground": "#80FF80"
         },
         {
             "name": "number",
@@ -46,7 +45,8 @@
             "name": "language constant",
             "scope":
             "variable.language, constant.language, constant.other, storage, keyword.control, keyword.other, keyword.operator.word",
-            "foreground": "#FFE0FF"
+            "foreground": "#FF80FF",
+            "font_style": "bold"
         },
         {
             "name": "special constant",
