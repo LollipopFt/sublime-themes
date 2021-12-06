@@ -28,14 +28,9 @@
     "rules":
     [
         {
-            "name": "variable",
-            "scope": "variable",
-            "foreground": "#E0FFE0"
-        },
-        {
             "name": "language constant",
             "scope":
-            "variable.language, constant.language, constant.other, storage, keyword.control, keyword.other, keyword.operator.word",
+            "variable.language, constant.language, storage, keyword.control, keyword.other, keyword.operator.word",
             "foreground": "#FF80FF",
         },
         {
