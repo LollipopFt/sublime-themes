@@ -31,12 +31,12 @@
             "name": "language constant",
             "scope":
             "variable.language, constant.language, storage, keyword.control, keyword.other, keyword.operator.word",
-            "foreground": "#FFC0FF",
+            "foreground": "#FF80FF",
         },
         {
             "name": "string",
             "scope": "string",
-            "foreground": "#C0FFC0"
+            "foreground": "#80FF80"
         },
         {
             "name": "comment",
@@ -46,7 +46,7 @@
         {
             "name": "invalid",
             "scope": "invalid",
-            "foreground": "#FFC0C0"
+            "foreground": "#FF8080"
         }
     ]
 }
