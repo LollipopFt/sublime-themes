@@ -1,2 +1,2 @@
-# material-theme
-reimplementation of material theme for sublime text.
+# sublime-themes
+sublime themes that i have implemented.
