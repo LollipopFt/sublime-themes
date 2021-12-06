@@ -28,26 +28,15 @@
     "rules":
     [
         {
-            "name": "variable constant",
-            "scope": "entity.name.constant, variable.other.constant",
-            "foreground": "#8080FF"
-        },
-        {
             "name": "variable",
-            "scope": "variable.other.readwrite",
-            "foreground": "#80FF80"
+            "scope": "variable",
+            "foreground": "#E0FFE0"
         },
         {
             "name": "language constant",
             "scope":
             "variable.language, constant.language, constant.other, storage, keyword.control, keyword.other, keyword.operator.word",
             "foreground": "#FF80FF",
-            "font_style": "bold"
-        },
-        {
-            "name": "special constant",
-            "scope": "constant.character.escape, constant.other.placeholder",
-            "foreground": "#606060"
         },
         {
             "name": "string",
