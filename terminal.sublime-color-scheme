@@ -36,7 +36,7 @@
         {
             "name": "string",
             "scope": "string",
-            "foreground": "#C0C0C0"
+            "foreground": "#C0FFC0"
         },
         {
             "name": "comment",
