@@ -12,13 +12,11 @@
         "minimap_border": "#808080",
         "gutter": "#000000",
         "gutter_foreground": "#808080",
-        "gutter_foreground_highlight": "#FFFFFF",
         "line_diff_added": "#00FF00",
         "line_diff_modified": "#FFFF00",
         "line_diff_deleted": "#FF0000",
         "selection": "#404040",
         "highlight": "#80FFBF",
-        "find_highlight": "#404040",
         "rulers": "#808080",
         "guide": "#808080",
         "brackets_options": "bold"
