@@ -31,7 +31,7 @@
             "name": "language constant",
             "scope":
             "variable.language, constant.language, storage, keyword.control, keyword.other, keyword.operator.word",
-            "foreground": "#FF80FF",
+            "foreground": "#FFC0FF",
         },
         {
             "name": "string",
@@ -46,7 +46,7 @@
         {
             "name": "invalid",
             "scope": "invalid",
-            "foreground": "#FFE0E0"
+            "foreground": "#FFC0C0"
         }
     ]
 }
