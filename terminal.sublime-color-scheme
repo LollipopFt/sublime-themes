@@ -22,7 +22,9 @@
         "find_highlight": "#404040",
         "rulers": "#808080",
         "guide": "#808080",
-        "brackets_options": "bold"
+        "brackets_options": "bold",
+        "brackets_contents_options": "foreground",
+        "brackets_contents_foreground": "#00FF00"
     },
 
     "rules":
