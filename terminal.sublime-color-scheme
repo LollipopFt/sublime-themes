@@ -49,11 +49,6 @@
             "name": "invalid",
             "scope": "invalid",
             "foreground": "#FF8080"
-        },
-        {
-            "name": "sublimelinter extra",
-            "scope": "markup.extra.sublime_linter",
-            "foreground": "#0000FF"
         }
     ]
 }
