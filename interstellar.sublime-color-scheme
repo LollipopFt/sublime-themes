@@ -32,23 +32,22 @@
         "brackets_foreground":           "#A9B0B4",
         "bracket_contents_options":      "underline",
         "bracket_contents_foreground":   "#A9B0B4",
-        "tags_options":                  "underline",
-        "tags_foreground":               "#A9B0B4",
         "shadow_width":                  "0"
     },
 
     "rules":
     [
         {
-            "scope":      "variable.language, constant.language, storage, keyword.control, keyword.other, keyword.operator.word",
-            "foreground": "#99A0A4",
+            "scope":      "variable.language, constant.language, constant.other, storage, keyword.control, keyword.other, keyword.operator.word",
+            "foreground": "#8F969A",
+            "font_style": "bold"
         },
         {
             "scope":      "comment, punctuation.definition.comment, entity.name.tag, punctuation.definition.tag",
             "foreground": "#737E84"
         },
         {
-            "scope":      "string, constant",
+            "scope":      "string",
             "foreground": "#808A90"
         },
         {
