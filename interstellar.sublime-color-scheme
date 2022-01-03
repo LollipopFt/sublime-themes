@@ -39,8 +39,7 @@
     [
         {
             "scope":      "variable.language, constant.language, constant.other, storage, keyword.control, keyword.other, keyword.operator.word",
-            "foreground": "#8F969A",
-            "font_style": "bold"
+            "foreground": "#8F969A"
         },
         {
             "scope":      "comment, punctuation.definition.comment, entity.name.tag, punctuation.definition.tag",
@@ -88,7 +87,7 @@
             "font_style": "bold"
         },
         {
-            "scope":      "markup.info, string.quoted.double.json",
+            "scope":      "markup.info",
             "foreground": "#A9B0B4"
         },
         {

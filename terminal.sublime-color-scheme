@@ -1,6 +1,4 @@
 {
-    "name": "terminal",
-
     "globals":
     {
         "background": "#000000",
@@ -31,14 +29,13 @@
     [
         {
             "name": "language constant",
-            "scope":
-            "variable.language, constant.language, storage, keyword.control, keyword.other, keyword.operator.word",
-            "foreground": "#FF80FF",
+            "scope": "variable.language, constant.language, constant.other, storage, keyword.control, keyword.other, keyword.operator.word",
+            "foreground": "#00C0C0",
         },
         {
             "name": "string",
             "scope": "string",
-            "foreground": "#80FF80"
+            "foreground": "#00C000"
         },
         {
             "name": "comment",
