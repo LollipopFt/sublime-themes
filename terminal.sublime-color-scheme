@@ -2,7 +2,7 @@
     "globals":
     {
         "background": "#000000",
-        "foreground": "#FFFFFF",
+        "foreground": "#A0A0A0",
         "caret": "#80FFBF",
         "block_caret": "#0000",
         "block_caret_border": "#80FFBF",
@@ -11,7 +11,7 @@
         "minimap_border": "#808080",
         "gutter": "#000000",
         "gutter_foreground": "#808080",
-        "gutter_foreground_highlight": "#FFFFFF",
+        "gutter_foreground_highlight": "#A0A0A0",
         "line_diff_added": "#00FF00",
         "line_diff_modified": "#FFFF00",
         "line_diff_deleted": "#FF0000",
@@ -30,12 +30,12 @@
         {
             "name": "language constant",
             "scope": "variable.language, constant.language, constant.other, storage, support.type, keyword.control, keyword.other, keyword.operator.word",
-            "foreground": "#00C0C0",
+            "foreground": "#6080A0",
         },
         {
             "name": "string",
             "scope": "string",
-            "foreground": "#00C000"
+            "foreground": "#00A000"
         },
         {
             "name": "comment",
