@@ -33,9 +33,14 @@
             "foreground": "#6080A0",
         },
         {
+            "name": "functions",
+            "scope": "entity.name.function",
+            "foreground": "#F0B070"
+        },
+        {
             "name": "string",
             "scope": "string",
-            "foreground": "#00A000"
+            "foreground": "#A0F080"
         },
         {
             "name": "comment",
